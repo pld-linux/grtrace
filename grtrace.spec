@@ -6,6 +6,7 @@ Release:	1
 License:	unknown, (c) 2001 Brad Spengler
 Group:		Applications/System
 Source0:	http://grsecurity.net/%{name}.tar.gz
+# Source0-md5:	c93cb81c07b66e31ff208eef68989987
 Patch0:		%{name}-fix.patch
 URL:		http://grsecurity.net/
 Requires:	strace /usr/bin/strace
