@@ -5,12 +5,6 @@ Version:	1.0.1
 Release:	1
 License:	unknown, (c) 2001 Brad Spengler
 Group:		Applications/System
-Group(de):	Applikationen/System
-Group(es):	Aplicaciones/Sistema
-Group(fr):	Aplicaciones/Système
-Group(pl):	Aplikacje/System
-Group(pt):	Aplicações/Sistema
-Group(pt_BR):	Aplicações/Sistema
 Source0:	http://grsecurity.net/%{name}.tar.gz
 Patch0:		%{name}-fix.patch
 URL:		http://grsecurity.net/
