@@ -1,0 +1,14 @@
+--- grtrace/grtrace.c.orig	Fri Nov 16 19:29:33 2001
++++ grtrace/grtrace.c	Wed Feb  6 11:35:38 2002
+@@ -76,9 +76,9 @@
+ 
+ 	if(!strcmp(argv[1],"-p")) {
+ 		findprocname(argv[2]);
+-		strcat(command,"/usr/bin/strace -p");
++		strcpy(command,"/usr/bin/strace -p");
+ 	} else
+-		strcat(command,"/usr/bin/strace");
++		strcpy(command,"/usr/bin/strace");
+ 
+ 	for(i=2;argv[i] != NULL;i++) {
+ 			strcat(command," \"");
