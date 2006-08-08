@@ -24,7 +24,7 @@ potrzebne capabilities oraz uprawnienia do plików.
 
 %prep
 %setup -q -n %{name}
-%patch -p1
+%patch0 -p1
 
 %build
 %{__cc} %{rpmcflags} %{rpmldflags} -o grtrace grtrace.c tracesort.c
