@@ -1,5 +1,5 @@
 Summary:	Tool to automatically generate grsecurity ACLs
-Summary(pl):	Narzêdzie to automatycznego generowania ACL-i grsecurity
+Summary(pl.UTF-8):   NarzÄ™dzie to automatycznego generowania ACL-i grsecurity
 Name:		grtrace
 Version:	1.0.1
 Release:	1
@@ -17,10 +17,10 @@ grtrace is to be used to automatically generate grsecurity ACLs for
 any binary or running process on your system. It detects needed
 capabilities and required file permissions.
 
-%description -l pl
-grtrace s³u¿y do automatycznego generowania ACL-i grsecurity dla
-dowolnej binarki lub dzia³aj±cego procesu w systemie. Wykrywa
-potrzebne capabilities oraz uprawnienia do plików.
+%description -l pl.UTF-8
+grtrace sÅ‚uÅ¼y do automatycznego generowania ACL-i grsecurity dla
+dowolnej binarki lub dziaÅ‚ajÄ…cego procesu w systemie. Wykrywa
+potrzebne capabilities oraz uprawnienia do plikÃ³w.
 
 %prep
 %setup -q -n %{name}
