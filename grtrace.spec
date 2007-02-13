@@ -1,5 +1,5 @@
 Summary:	Tool to automatically generate grsecurity ACLs
-Summary(pl.UTF-8):   Narzędzie to automatycznego generowania ACL-i grsecurity
+Summary(pl.UTF-8):	Narzędzie to automatycznego generowania ACL-i grsecurity
 Name:		grtrace
 Version:	1.0.1
 Release:	1
